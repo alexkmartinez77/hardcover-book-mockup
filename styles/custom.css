@@ -1,3 +1,11 @@
 body{
     font-family: 'Merriweather', serif;
 }
+header{
+    color:white;
+    background-color: black;
+}
+.texture{
+    background-image: url('../assets/images/tweed.png');
+    background-repeat: repeat;
+}
