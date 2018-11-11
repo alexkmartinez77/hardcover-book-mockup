@@ -3,9 +3,56 @@ body{
 }
 header{
     color:white;
-    background-color: black;
+    background-color:#2f2f2f;
+    width: auto;
+    height: auto;
+    overflow: auto;
 }
 .texture{
-    background-image: url('../assets/images/tweed.png');
-    background-repeat: repeat;
+    background: #2f2f2f url('../assets/images/tweed.png') repeat top left;
+}
+.headerTop{
+    color:white;
+    font-size: 22px;
+    padding: 10px 0;
+}
+p{
+    margin-bottom:0px;
+}
+.form{
+    border: 10px white solid;
+    outline: 1px black solid;
+    background: lightskyblue;
+    padding: 10px;
+}
+.formHeader{
+    padding:10px;
+    background: black;
+    color:white;
+    text-align: center;
+}
+.formBody{
+    padding-top:5px;
+    text-align: center;
+}
+.formem{
+    padding: 10px 0;
+    text-align: center;
+}
+label{
+    text-align: left;
+    font:black;
+    font-weight: bold;
+    margin: 3px 0;
+}
+input{
+    width: 100%;
+}
+.button{
+    width: 100%;
+    padding:10px;
+    color:white;
+    margin-top:10px;
+    background:red;
+    text-align:center;
 }
