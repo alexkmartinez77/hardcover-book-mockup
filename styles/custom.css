@@ -56,3 +56,12 @@ input{
     background:red;
     text-align:center;
 }
+.quote{
+    background: url('../assets/images/quote.png');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    border-bottom: solid lightgray 1px;
+    padding:10px;
+    text-align:left;
+    background-position: right;
+}
