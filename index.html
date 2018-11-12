@@ -12,38 +12,64 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div class="headerTop">
-                <p>Logo
-                </p>
+            <!-- Logo -->
+            <div class="container headerTop">
+                <p>Logo</p>
             </div>
-            <div class="row texture">
-                <div class="col-6">
-                    <img src="assets/images/hardcoverBook.png">
+            <!-- Img / Message -->
+            <div class="texture">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/images/hardcoverBook.png">
+                        </div>
+                        <div class="col-6">
+                            <div class="headline">
+                                <H1>This is the greatest eBook known to man. Buy it now before they're gone!</h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <!-- Img Footer -->
+            <div class="container headerBottom">
                 <div class="col-6">
-                    <H1>This is the greatest eBook known to man. Buy it now before they're gone!</h1>
+                    <p>Free expert advice from the industry authority and world renowed author.</p>
                 </div>
             </div>
-            <div class="headerBottom">
-                <p>Free expert advice from the industry authority and world renowed author.</p>
-            </div>
+
         </div>
     </header>
+    <!-- Left Column -->
     <div class="container">
-        <div class='col-6 leftColumn'>
-            <h3>Get all the facts:</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
+        <div class="leftColumn">
+            <div class="col-6">
+                <h3>Get all the facts:</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore
+                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia
+                    deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore
+                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia
+                    deserunt mollit anim id est laborum.</p>
+            </div>
         </div>
-        <div class='col-5 rightColumn'>
+    </div>
+
+    <div class="rightColumn col-4">
             <div class="form">
                 <p class="formHeader">Become a better salesperson in 30 days</p>
                 <p class="formBody">In 30 days you'll learn the art of selling from the world's best salesperson</p>
@@ -52,8 +78,8 @@
                 <input type="text" id="firstName" name="firstName">
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email">
-                <div class="button">SEND ME A FREE CHAPTER</button>
-                </div>
+                <label for="submit">Send me a FREE chapter!</label>
+                <input type="submit" id="submit" name="submit" value="Send me a FREE chapter!">
             </div>
             <div class="quote">
                 <p>"This is the best book I've ever read! Loved it! Thanks so much."</p>
@@ -62,16 +88,18 @@
                 <p>"My business was failing, then I read this book. It saved me, thank you!"</p>
             </div>
             <div class="quote">
-                <p>"Where has this book been all of my life? I read it cover to cover without putting it down."</p>
+                <p>"Where has this book been all of my life? I read it cover to cover without putting it
+                    down."</p>
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

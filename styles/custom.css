@@ -10,20 +10,36 @@ header{
 }
 .texture{
     background: #2f2f2f url('../assets/images/tweed.png') repeat top left;
+    padding: 20px 0;
+    margin: 0;
 }
 .headerTop{
-    color:white;
     font-size: 22px;
     padding: 10px 0;
 }
-p{
-    margin-bottom:0px;
+.headline{
+    text-align: right;
+}
+.headline h1{
+    font-size: 36px;
+}
+.headerBottom{
+    padding: 10px 0;
+    font-size: 16px;
+}
+h3{
+    font-weight: 600;
+}
+.leftColumn p{
+    line-height: 1.9;
 }
 .form{
     border: 10px white solid;
     outline: 1px black solid;
-    background: lightskyblue;
+    background: #d8f6ff;
     padding: 10px;
+    margin-bottom: 20px;
+
 }
 .formHeader{
     padding:10px;
@@ -48,13 +64,12 @@ label{
 input{
     width: 100%;
 }
-.button{
-    width: 100%;
-    padding:10px;
-    color:white;
-    margin-top:10px;
-    background:red;
-    text-align:center;
+input[type="submit"]{
+    background-color: red;
+    height: 60px;
+    font-size: 16px;
+    margin-top: 15px;
+    text-transform: uppercase;
 }
 .quote{
     background: url('../assets/images/quote.png');
@@ -64,4 +79,21 @@ input{
     padding:10px;
     text-align:left;
     background-position: right;
+}
+.container-fluid{
+    padding:0px;
+}
+img{
+    width:100%;
+}
+.rightColumn{
+    position: absolute;
+    top: 250px;
+    right: 0px;
+}
+.leftColumn{
+    margin: 60px 0;
+}
+.container{
+    position:relative;
 }
