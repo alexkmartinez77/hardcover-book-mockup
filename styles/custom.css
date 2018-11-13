@@ -33,7 +33,7 @@ h3{
 .leftColumn p{
     line-height: 1.9;
 }
-.form{
+form{
     border: 10px white solid;
     outline: 1px black solid;
     background: #d8f6ff;
