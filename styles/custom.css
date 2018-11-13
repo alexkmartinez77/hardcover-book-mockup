@@ -56,20 +56,18 @@ form{
     padding: 10px 0;
     text-align: center;
 }
-label{
-    text-align: left;
-    font:black;
-    font-weight: bold;
-    margin: 3px 0;
-}
-input{
-    width: 100%;
-}
 input[type="submit"]{
     background-color: red;
     height: 60px;
     font-size: 16px;
-    margin-top: 15px;
+    text-transform: uppercase;
+    
+}
+input[type="submit"]:hover{
+    color:white;
+    background-color: red;
+    height: 60px;
+    font-size: 16px;
     text-transform: uppercase;
 }
 .quote{
@@ -91,16 +89,9 @@ img{
 .rightColumn{
     position: absolute;
     top: 40%;
-    right: 8%;
+    right: 10%;
 }
 .leftColumn{
     margin: 60px 0;
 }
-.container{
-    position:relative;
-}
-.practice{
-    background-color:yellow;
-    height: 30px;
-    width: 100%;
-}
+
